@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Query Results</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <ul>
+    {% for key, value in data.items() %}
+        <p>{{ key }}: {{ value }}</p>
+    {% endfor %}
+    </ul>
+</body>
+</html>

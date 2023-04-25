@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Results</title>
+</head>
+<body>
+    <h1>Flight Results</h1>
+    <ul>
+    {% for key, value in data.items() %}
+        <p>{{ key }}: {{ value }}</p>
+    {% endfor %}
+    </ul>
+</body>
+</html>
