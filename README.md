@@ -6,12 +6,17 @@ The ticket-price folder contains the Python code for the price tracker.
 ## Installation
 1. Clone the repository:
 
- <pre>`git clone https://github.com/<username>/<repository>.git`</pre>
+ <pre>git clone https://github.com/Samreenhabib/WebScraping.git</pre>
 
 2. Change into the ticket-price directory:
 
-<pre>`cd ticket-price`</pre>
+<pre>cd ticket-price</pre>
 
 3. Create a virtual environment and activate it:
 
-<pre>`conda env create -f price_env.yml`</pre>
+<pre>conda env create -f price_env.yml</pre>
+
+## Usage
+Run the query.py script:
+
+<pre>python price_tracker.py</pre>
