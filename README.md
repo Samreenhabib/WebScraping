@@ -19,4 +19,4 @@ The ticket-price folder contains the Python code for the price tracker.
 ## Usage
 Run the query.py script:
 
-<pre>python price_tracker.py</pre>
+<pre>python query.py</pre>
