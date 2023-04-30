@@ -71,12 +71,15 @@ def query_example(route):
                           "arrtime" : av_time_list })
 
     airline_dic = df.to_dict()
+    
+    dic_1 = {"origin" : origin , "destination" : destination ,
+                       "startdate" : date,
+                        "price" : price_list,
+                         "deptime" : dpt_list,
+                          "arrtime" : av_time_list }
+    return dic_1
 
-
-
-
-
-    return render_template('queryresult.html', query=query, flight_details=airline_dic)
+#     return render_template('queryresult.html', query=query, flight_details=airline_dic)
     
 
 if __name__ == '__main__':
